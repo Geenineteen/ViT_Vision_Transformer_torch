@@ -1,0 +1,4 @@
+# ignore ALL files in logs
+logs/
+pretrain_weights/
+weights/
