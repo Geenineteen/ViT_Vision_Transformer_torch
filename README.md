@@ -1,6 +1,6 @@
 # ViT_Vision_Transformer_torch
 
-Inspired by the success of Transformers in natural language processing, Vision Transformer(ViT) introduces a new way to analyze images by dividing them into smaller patches and leveraging self-attention mechanisms. This allows the model to capture both local and global relationships within images, leading to impressive performance in various computer vision tasks.
+Inspired by the success of Transformers in natural language processing, Vision Transformer(ViT) introduces a new way to analyze images by dividing them into smaller patches and leveraging self-attention mechanisms. This allows the model to capture both local and global relationships within images,  leading to impressive performance in various computer vision tasks.
 
 This project develops a object classification model based Vision Transformer from using Pytorch.
 
