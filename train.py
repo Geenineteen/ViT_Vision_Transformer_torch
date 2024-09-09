@@ -19,7 +19,6 @@ from config import args
 from dataloader import get_data_loader
 from utils import remove_dir_and_create_dir, create_model, model_parallel, set_seed
 
-
 def main(args):
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
@@ -146,10 +145,7 @@ def main(args):
 
         if val_accurate > best_acc:
             best_acc = val_accurate
-            torch.save(model.state_dict(), "{}/epoch={}_val_acc={:.4f}.pth".format(weights_dir,
-                                                                                   epoch,
-                                                                                   val_accurate))
-
+            torch.save(model.state_dict(), "{}/epoch={}_val_acc={:.4f}.pth".format(weights_dir, epoch, val_accurate))
 
 if __name__ == '__main__':
     main(args)

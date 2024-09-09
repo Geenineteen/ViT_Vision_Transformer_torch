@@ -37,6 +37,7 @@ parser.add_argument('--model', type=str, default='vit_base_patch16_224',
                     help='The name of ViT model, Select one to train.')
 
 # Define 5 class types
+# This part can be customised
 parser.add_argument('--label_name', type=list, default=[
     "daisy",
     "dandelion",
